@@ -110,7 +110,12 @@ const ContactUsPage = () => {
                 <Mail className="h-6 w-6 text-[#43C6AC]" />
                 <div>
                   <h3 className="font-medium text-gray-800 mb-1">Email Us</h3>
-                  <p className="text-gray-600">siddharthrao.dev@gmail.com</p>
+                  <a
+                    href="mailto:siddharth@example.com"
+                    className="text-gray-600 hover:underline"
+                  >
+                    siddharthrao.dev@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -118,7 +123,12 @@ const ContactUsPage = () => {
                 <Phone className="h-6 w-6 text-[#43C6AC]" />
                 <div>
                   <h3 className="font-medium text-gray-800 mb-1">Call Us</h3>
-                  <p className="text-gray-600">+91 8840412287</p>
+                  <a
+                    href="Phone:+918840412287"
+                    className="text-gray-600 hover:underline"
+                  >
+                    +91 8840412287
+                  </a>
                 </div>
               </div>
             </div>
