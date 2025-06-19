@@ -101,7 +101,7 @@ const ContactUsPage = () => {
                     Our Location
                   </h3>
                   <p className="text-gray-600">
-                    123 Book Street, Library City, LC 10001
+                    123 Book Street, Lucknow City, LC 10001
                   </p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const ContactUsPage = () => {
                 <Phone className="h-6 w-6 text-[#43C6AC]" />
                 <div>
                   <h3 className="font-medium text-gray-800 mb-1">Call Us</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 8840412287</p>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ const ContactUsPage = () => {
                     <Phone className="absolute left-3 top-3 h-5 w-5 text-gray-400" />
                     <input
                       name="phone"
-                      type="tel"
+                      type="phone"
                       value={formData.phone}
                       onChange={handleChange}
                       className={styles.inputStyle}
